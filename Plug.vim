@@ -81,6 +81,14 @@ call plug#begin('~/.vim/plugged')
   " asynchronous process manager; run :VimProcBang to run a command and echo the results
   Plug 'Shougo/vimproc.vim', { 'do': function('InstallVimProc') }
 
+
+  " Disable conflicting swap file)
+  Plug 'aaron-goshine/swapvim'
+
+  " comment stuff out (via leader-cc -cb)
+  Plug 'tomtom/tcomment_vim'
+
+
   " comment stuff out (via leader-/)
   Plug 'tpope/vim-commentary'
 
