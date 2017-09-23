@@ -6,7 +6,7 @@ declare UPDATE=0 INTERACTIVE=1
 declare VIM='vim'
 
 readonly VIMFILES_PATH="${HOME}/.vim"
-readonly VIMFILES_REPO_NAME='luan/vimfiles'
+readonly VIMFILES_REPO_NAME='aaron-goshine/vimfiles'
 readonly VIMFILES_REPO_URL="https://github.com/${VIMFILES_REPO_NAME}"
 readonly FILES_TO_LINK="vimrc gvimrc"
 readonly LOCALS=".vimrc.local.before .vimrc.local .vimrc.local.plugins"
